@@ -25,6 +25,8 @@ import {
 
 import { Visibility, VisibilityOff } from '@material-ui/icons';
 
+import DisplayNetworkStatus from '../components/DisplayNetworkStatus';
+
 import { APP_ROUTES } from '../../configs/routes';
 import { API_URLS } from '../../configs/api';
 
@@ -289,6 +291,7 @@ class Login extends React.Component {
                     </>
                   )}
                 </Grid>
+								<DisplayNetworkStatus />
                 <Link
                   variant="subtitle2"
                   className="cursor-pointer"
