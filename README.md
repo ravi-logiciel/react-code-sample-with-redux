@@ -1,3 +1,3 @@
 # React sample code
 
-React smaple code redux, axios, routes, auth. ...etc
+React sample code redux, axios, routes, auth. ...etc
